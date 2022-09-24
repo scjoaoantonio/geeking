@@ -1,4 +1,4 @@
-# Jokers Club eSports
+# GEEKING - Para gamers reais
 
 > Rede Social não funcional chamada Geeking (Para treinar meu Frontend)
 
