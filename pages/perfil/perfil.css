@@ -46,23 +46,42 @@ body{
     opacity: 0.5;
 }
 .cima_direita{
+    width: 25%;
+    height: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    gap: 20px;
+    padding-top: 25px;
+    gap: 10px;
 }
 .cima_direita h1{
     color: var(--branco);
     font-family: 'Saira Condensed',sans-serif;
     font-size: 35px;
 }
+.cima_direita p{
+    color: var(--branco);
+    font-family: 'Saira Condensed',sans-serif;
+    font-size: 20px;
+}
 .cima_direita img{
     width: 50px;
 }
-.cima_direita button{
+.cima_direita a{
     width: 100%;
-    height: 20%;
+    text-decoration: none;
+}
+.buttons_group{
+    display: flex;
+    width: 100%;
+    height: 50%;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 20px;
+}
+.buttons_group button{
+    width: 100%;
+    height: 40%;
     background-color: var(--desabilitado);
     border: none;
     text-decoration: none;
@@ -72,10 +91,16 @@ body{
     border-radius: 8%;
     cursor: pointer;
     box-shadow: 1px 1px 3px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.cima_direita button:active{
+.buttons_group button:active{
     scale: 0.95;
+}
+.buttons_group{
+    width: 100%;
 }
 .baixo{
     display: flex;
