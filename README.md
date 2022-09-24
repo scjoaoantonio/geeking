@@ -13,4 +13,4 @@
 - CSS
 - Git e Github
 
-[🔗 Clique aqui para acessar](https://scjoaoantonio.github.io/geeking/)
+[🔗 Clique aqui para acessar](https://scjoaoantonio.github.io/geeking/pages/login/login.html)
